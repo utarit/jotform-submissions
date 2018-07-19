@@ -15,8 +15,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 //MY API KEY
-const apiKey = '999d0ac54064cc974e7a51249b2ebdbf';
-//https://www.jotform.com/pdf-designer/#/81912440823958?preview=true&apiKey=999d0ac54064cc974e7a51249b2ebdbf&submission=4071118097817058184
+const apiKey = ''; // API KEY COMES HERE!
+
 //ROUTING
 app.get('/', (req, res) => {
     res.send('Server is OK')
